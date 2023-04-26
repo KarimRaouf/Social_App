@@ -88,7 +88,7 @@ class MyApp extends StatelessWidget {
             themeMode: cubit.isDark ? ThemeMode.dark : ThemeMode.light,
             home: Directionality(
               textDirection: TextDirection.ltr,
-              child: ShopLayout(),
+              child: SocialLayout(),
             ),
           );
         },
