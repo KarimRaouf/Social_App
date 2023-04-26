@@ -1,6 +1,7 @@
 import 'package:FlutterApplications/layout/cubit/cubit.dart';
 import 'package:FlutterApplications/layout/cubit/states.dart';
 import 'package:FlutterApplications/layout/shop_app/cubit/cubit.dart';
+import 'package:FlutterApplications/layout/shop_app/shop_layout.dart';
 import 'package:FlutterApplications/layout/social_app/cubit/cubit.dart';
 import 'package:FlutterApplications/layout/social_app/social_layout.dart';
 import 'package:FlutterApplications/modules/social_app/social_login/social_login_screen.dart';
@@ -87,7 +88,7 @@ class MyApp extends StatelessWidget {
             themeMode: cubit.isDark ? ThemeMode.dark : ThemeMode.light,
             home: Directionality(
               textDirection: TextDirection.ltr,
-              child: NewsLayout(),
+              child: ShopLayout(),
             ),
           );
         },
